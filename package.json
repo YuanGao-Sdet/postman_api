@@ -1,0 +1,14 @@
+{
+  "name": "miniman",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "api-test": "newman run tests/Mini_mam.postman_collection.json"
+  },
+  "author": "yuan",
+  "license": "ISC",
+  "dependencies": {
+    "newman": "^5.2.2"
+  }
+}
