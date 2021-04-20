@@ -16,7 +16,7 @@
 							"    pm.expect(pm.response.text()).to.include(\"VIDEO\");\r",
 							"});\r",
 							"pm.test(\"Status code is 200\", function () {\r",
-							"    pm.response.to.have.status(201);\r",
+							"    pm.response.to.have.status(200);\r",
 							"});\r",
 							"pm.test(\"Content-Type is present\", function () {\r",
 							"    pm.response.to.have.header(\"Content-Type\");\r",
